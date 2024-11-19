@@ -1,0 +1,128 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 938px;  
+  margin: 0 auto;
+}
+
+.movieComponents{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin:15px 0;
+
+}
+.picpure {
+  height: 281px;
+  width: 183px;
+  background-color: #0e0c0c;
+}
+
+.nd{
+  display:flex;
+  box-shadow: 0px 4px 12px 0px ;
+  height: 281px;
+  width: 451px;
+  margin: 5px;
+  box-sizing: content-box;
+}
+
+.overview{
+  overflow:hidden;
+  height: 129px;
+  width: 228px;
+  margin: 5px 0;
+  width: 228px;
+  font-size: 12px;
+  line-height: 22px;
+  text-align: left;
+}
+
+.errText{
+  font-size: 20px;
+}
+
+.errorEl, .spinner, .ofline{
+  position: absolute;
+  top: 50%;
+  left:50%
+}
+
+.title{
+  margin: 0 40px 0 0;
+  font-size:  20px;
+  width: 100%;
+  word-wrap:break-word
+}
+
+.releaze{
+  text-wrap: nowrap;
+  font-size: 12px;
+  margin:5px 0;
+}
+
+.button{
+  margin:  5px  10px 5px 0;
+}
+
+ 
+ 
+.ant-anchor-wrapper-horizontal .ant-anchor {
+  justify-content: center;
+background-color: white; 
+}
+
+.stars{
+  display: flex;
+  justify-content: center;
+ 
+  align-self: center;
+
+ 
+}
+.text{
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    width: 268px;
+    height: 281px;
+    position: relative;
+    
+}
+.circle {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border: solid 2px #E9D100;
+  border-radius:17px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.findPlease{
+  width: 100%;
+}
+ 
+body {
+  margin: 0;
+  padding: 0;
+}
+.ant-rate-star{
+margin: 1px !important;
+}
+
+.paginatione{
+  margin:20px
+}
+
+ 
