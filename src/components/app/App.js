@@ -16,7 +16,6 @@ export default class App extends Component {
   timeout = null
 
   peredPeremSort = (peredId, peredStars) => {
-    console.log(peredId, peredStars)
     this.setState({ peredId: peredId, peredStars: peredStars })
   }
 

@@ -3,7 +3,7 @@ import { CloseSquareFilled } from '@ant-design/icons'
 import { Alert } from 'antd'
 
 const onClose = (e) => {
-  console.log(e, 'I was closed.')
+  Allert('закрылось но ошибка присутствует')
 }
 
 const Allert = () => {
